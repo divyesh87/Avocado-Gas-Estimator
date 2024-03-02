@@ -1,0 +1,12 @@
+export const config = {
+  SERVER_PORT: 7282,
+  AVOCADO_RPC: "https://rpc.avocado.instadapp.io/",
+  AVO_FORWARDER_ADDRESS: "0x46978CD477A496028A18c02F07ab7F35EDBa5A54",
+
+
+  // Redis
+  REDIS_URL: "redis://127.0.0.1:6379",
+  AVOCADO_ADDRESS_CACHE_EXPIRY: 60 * 60 * 24, //1 day
+  AVOCADO_REQUIRED_SIGNERS_CACHE_EXPIRY: 60 * 5, // 5mins
+  AVOCADO_NONCE_CACHE_EXPIRY: 60 * 5, //5mins
+};

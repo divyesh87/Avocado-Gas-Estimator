@@ -1,0 +1,6 @@
+[
+    "function DOMAIN_SEPARATOR_NAME() view returns (string)",
+    "function DOMAIN_SEPARATOR_VERSION() view returns (string)",
+    "function avoNonce() view returns (uint)",
+    "function requiredSigners() view returns (uint)"
+]

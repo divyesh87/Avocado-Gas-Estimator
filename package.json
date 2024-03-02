@@ -1,0 +1,38 @@
+{
+  "name": "avo-bridge-routing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --quiet src/index.ts",
+    "tests": "jest",
+    "tests-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bignumber.js": "^9.1.1",
+    "chalk": "3.0.0",
+    "class-validator": "0.14.1",
+    "cors": "2.8.5",
+    "ethers": "5.7.2",
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "redis": "^4.6.13",
+    "reflect-metadata": "0.2.1",
+    "routing-controllers": "^0.10.4"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/morgan": "^1.9.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.3.3"
+  }
+}
